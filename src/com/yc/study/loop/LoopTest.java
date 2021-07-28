@@ -8,7 +8,7 @@ public class LoopTest {
             System.out.println("out loop param:" + i);
             for (int j = 11; j < 14; j++) {
                 if(i == 3) {
-                    continue label;
+                    break label;
                 }
                 System.out.println("inner loop param:" + j);
             }
